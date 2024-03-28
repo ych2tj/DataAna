@@ -1,0 +1,31 @@
+symbol,name,sector,subSector,headQuarter,dateFirstAdded,cik,founded
+AMGN,Amgen Inc.,Healthcare,Healthcare,"Thousand Oaks, CA",2020-08-31,0000318154,1980-04-08
+CRM,"Salesforce, Inc.",Technology,Technology,"San Francisco, CA",2020-08-31,0001108524,1999-02-03
+HON,Honeywell International Inc.,Industrials,Industrials,"Charlotte, NC",2020-08-31,0000773840,1906-01-01
+GS,"The Goldman Sachs Group, Inc.",Financial Services,Financial Services,"New York, NY",2019-04-02,0000886982,1869-01-01
+WBA,"Walgreens Boots Alliance, Inc.",Healthcare,Healthcare,"Deerfield, IL",2018-06-26,0001618921,2014-12-31
+AAPL,Apple Inc.,Technology,Technology,"Cupertino, CA",2015-03-19,0000320193,1976-04-01
+NKE,"Nike, Inc.",Consumer Cyclical,Consumer Cyclical,"Beaverton, OR",2013-09-20,0000320187,1964-01-25
+V,Visa Inc.,Financial Services,Financial Services,"San Francisco, CA",2013-09-20,0001403161,1958-09-18
+UNH,UnitedHealth Group Incorporated,Healthcare,Healthcare,"Minnetonka, MN",2012-09-24,0000731766,1977-01-01
+CSCO,"Cisco Systems, Inc.",Technology,Technology,"San Jose, CA",2009-06-08,0000858877,1984-12-10
+TRV,"The Travelers Companies, Inc.",Financial Services,Financial Services,"New York, NY",2009-06-08,0000086312,1853-01-01
+CVX,Chevron Corporation,Energy,Energy,"San Ramon, CA",2008-02-19,0000093410,1879-09-10
+VZ,Verizon Communications Inc.,Communication Services,Communication Services,"New York, NY",2004-04-08,0000732712,1983-10-07
+HD,"The Home Depot, Inc.",Consumer Cyclical,Consumer Cyclical,"Atlanta, GA",1999-11-01,0000354950,1978-02-06
+INTC,Intel Corporation,Technology,Technology,"Santa Clara, CA",1999-11-01,0000050863,1968-07-18
+MSFT,Microsoft Corporation,Technology,Technology,"Redmond, WA",1999-11-01,0000789019,1975-04-04
+JNJ,Johnson & Johnson,Healthcare,Healthcare,"New Brunswick, NJ",1997-03-17,0000200406,1886-01-01
+WMT,Walmart Inc.,Consumer Defensive,Consumer Defensive,"Bentonville, AR",1997-03-17,0000104169,1962-07-02
+CAT,Caterpillar Inc.,Industrials,Industrials,"Deerfield, IL",1991-05-06,0000018230,1925-04-15
+DIS,The Walt Disney Company,Communication Services,Communication Services,"Burbank, CA",1991-05-06,0001744489,1923-10-16
+DOW,Dow Inc.,Basic Materials,Basic Materials,"Midland, MI",1991-05-06,0001751788,2019-04-01
+JPM,JPMorgan Chase & Co.,Financial Services,Financial Services,"New York, NY",1991-05-06,0000019617,2000-12-01
+BA,The Boeing Company,Industrials,Industrials,"Chicago, IL",1987-03-12,0000012927,1916-07-15
+KO,The Coca-Cola Company,Consumer Defensive,Consumer Defensive,"Atlanta, GA",1987-03-12,0000021344,1892-01-29
+MCD,McDonald's Corporation,Consumer Cyclical,Consumer Cyclical,"Chicago, IL",1985-10-30,0000063908,1940-05-15
+AXP,American Express Company,Financial Services,Financial Services,"New York, NY",1982-08-30,0000004962,1850-03-18
+IBM,International Business Machines Corporation,Technology,Technology,"Armonk, NY",1979-06-29,0000051143,1911-06-16
+MRK,"Merck & Co., Inc.",Healthcare,Healthcare,"Kenilworth, NJ",1979-06-29,0000310158,1891-01-01
+MMM,3M Company,Industrials,Industrials,"Saint Paul, MN",1976-08-09,0000066740,1902-06-13
+PG,The Procter & Gamble Company,Consumer Defensive,Consumer Defensive,"Cincinnati, OH",1932-05-26,0000080424,1837-10-31

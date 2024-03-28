@@ -1,0 +1,102 @@
+symbol,name,sector,subSector,headQuarter,dateFirstAdded,cik,founded
+AAPL,Apple Inc.,Technology,Technology,"Cupertino, CA",,0000320193,1976-04-01
+ABNB,Airbnb,Consumer Cyclical,Consumer Cyclical,"San Francisco, CA",,0001559720,2008-08-01
+ADBE,Adobe Inc.,Technology,Technology,"San Jose, CA",,0000796343,1982-12-01
+ADI,Analog Devices,Technology,Technology,"Wilmington, MA",,0000006281,1965-01-01
+ADP,ADP,Industrials,Industrials,"Roseland, NJ",,0000008670,1949-01-01
+ADSK,Autodesk,Technology,Technology,"San Rafael, CA",,0000769397,1982-01-30
+AEP,American Electric Power,Utilities,Utilities,"Columbus, OH",,0000004904,1906-01-01
+AMAT,Applied Materials,Technology,Technology,"Santa Clara, CA",,0000006951,1967-11-10
+AMD,Advanced Micro Devices Inc.,Technology,Technology,"Santa Clara, CA",,0000002488,1969-05-01
+AMGN,Amgen,Healthcare,Healthcare,"Thousand Oaks, CA",,0000318154,1980-04-08
+AMZN,Amazon,Consumer Cyclical,Consumer Cyclical,"Seattle, WA",,0001018724,1994-07-05
+ANSS,Ansys,Technology,Technology,"Canonsburg, PA",,0001013462,1970-01-01
+ASML,ASML Holding,Technology,Technology,"Veldhoven, ",,0000937966,1984-01-01
+AVGO,Broadcom Inc.,Technology,Technology,"San Jose, CA",,0001730168,1961-01-01
+AZN,AstraZeneca,Healthcare,Healthcare,"Cambridge, ",,0000901832,1999-04-06
+BIIB,Biogen,Healthcare,Healthcare,"Cambridge, MA",,0000875045,1978-01-01
+BKNG,Booking Holdings,Consumer Cyclical,Consumer Cyclical,"Norwalk, CT",,0001075531,1996-01-01
+BKR,Baker Hughes,Energy,Energy,"Houston, TX",,0001701605,1908-01-01
+CCEP,Coca-Cola Europacific Partners,Consumer Defensive,Consumer Defensive,"Uxbridge, ",,0001650107,2016-05-28
+CDNS,Cadence Design Systems,Technology,Technology,"San Jose, CA",,0000813672,1988-01-01
+CDW,CDW Corporation,Technology,Technology,"Vernon Hills, IL",,0001402057,1984-01-01
+CEG,Constellation Energy,Utilities,Utilities,"Baltimore, MD",,0001868275,1999-01-01
+CHTR,Charter Communications,Communication Services,Communication Services,"Stamford, CT",,0001091667,1993-01-01
+CMCSA,Comcast,Communication Services,Communication Services,"Philadelphia, PA",,0001166691,1963-06-28
+COST,Costco,Consumer Defensive,Consumer Defensive,"Issaquah, WA",,0000909832,1983-09-15
+CPRT,Copart,Consumer Cyclical,Consumer Cyclical,"Dallas, TX",,0000900075,1982-01-01
+CRWD,CrowdStrike,Technology,Technology,"Austin, TX",,0001535527,2011-01-01
+CSCO,Cisco,Technology,Technology,"San Jose, CA",,0000858877,1984-12-10
+CSGP,CoStar Group,Real Estate,Real Estate,"Washington, DC",,0001057352,1987-01-01
+CSX,CSX Corporation,Industrials,Industrials,"Jacksonville, FL",,0000277948,1980-11-01
+CTAS,Cintas,Industrials,Industrials,"Cincinnati, OH",,0000723254,1929-01-01
+CTSH,Cognizant,Technology,Technology,"Teaneck, NJ",,0001058290,1994-01-26
+DASH,DoorDash,Communication Services,Communication Services,"San Francisco, CA",,0001792789,2012-10-01
+DDOG,Datadog,Technology,Technology,"New York, NY",,0001561550,2010-01-01
+DLTR,Dollar Tree,Consumer Defensive,Consumer Defensive,"Chesapeake, VA",,0000935703,1953-01-01
+DXCM,DexCom,Healthcare,Healthcare,"San Diego, CA",,0001093557,1999-01-01
+EA,Electronic Arts,Communication Services,Communication Services,"Redwood City, CA",,0000712515,1982-05-27
+EXC,Exelon,Utilities,Utilities,"Chicago, IL",,0001109357,2000-10-20
+FANG,Diamondback Energy,Energy,Energy,"Midland, TX",,0001539838,2012-10-12
+FAST,Fastenal,Industrials,Industrials,"Winona, MN",,0000815556,1967-01-01
+FTNT,Fortinet,Technology,Technology,"Sunnyvale, CA",,0001262039,2000-01-01
+GEHC,GE HealthCare,Healthcare,Healthcare,"Chicago, IL",,0001932393,1994-09-28
+GFS,GlobalFoundries,Technology,Technology,"Malta, NY",,0001709048,2009-03-02
+GILD,Gilead Sciences,Healthcare,Healthcare,"Foster City, CA",,0000882095,1987-06-22
+GOOG,Alphabet Inc. (Class C),Communication Services,Communication Services,"Mountain View, CA",,0001652044,2015-10-02
+GOOGL,Alphabet Inc. (Class A),Communication Services,Communication Services,"Mountain View, CA",,0001652044,2015-10-02
+HON,Honeywell,Industrials,Industrials,"Charlotte, NC",,0000773840,1906-01-01
+IDXX,Idexx Laboratories,Healthcare,Healthcare,"Westbrook, ME",,0000874716,1983-01-01
+ILMN,"Illumina, Inc.",Healthcare,Healthcare,"San Diego, CA",,0001110803,1998-01-01
+INTC,Intel,Technology,Technology,"Santa Clara, CA",,0000050863,1968-07-18
+INTU,Intuit,Technology,Technology,"Mountain View, CA",,0000896878,1983-01-01
+ISRG,Intuitive Surgical,Healthcare,Healthcare,"Sunnyvale, CA",,0001035267,1995-01-01
+KDP,Keurig Dr Pepper,Consumer Defensive,Consumer Defensive,"Burlington, MA",,0001418135,1981-01-01
+KHC,Kraft Heinz,Consumer Defensive,Consumer Defensive,"Pittsburgh, PA",,0001637459,2015-07-02
+KLAC,KLA Corporation,Technology,Technology,"Milpitas, CA",,0000319201,1997-01-01
+LRCX,Lam Research,Technology,Technology,"Fremont, CA",,0000707549,1980-01-01
+LULU,Lululemon,Consumer Cyclical,Consumer Cyclical,"Vancouver, BC",,0001397187,1998-01-01
+MAR,Marriott International,Consumer Cyclical,Consumer Cyclical,"Bethesda, MD",,0001048286,1927-03-05
+MCHP,Microchip Technology,Technology,Technology,"Chandler, AZ",,0000827054,1989-01-01
+MDB,MongoDB Inc.,Technology,Technology,"New York, NY",,0001441816,2007-01-01
+MDLZ,Mondelēz International,Consumer Defensive,Consumer Defensive,"Chicago, IL",,0001103982,1923-12-10
+MELI,MercadoLibre,Consumer Cyclical,Consumer Cyclical,"Montevideo, ",,0001099590,1999-08-02
+META,Meta Platforms,Communication Services,Communication Services,"Menlo Park, CA",,0001326801,2004-01-04
+MNST,Monster Beverage,Consumer Defensive,Consumer Defensive,"Corona, CA",,0000865752,1999-01-01
+MRNA,Moderna,Healthcare,Healthcare,"Cambridge, MA",,0001682852,2010-09-01
+MRVL,Marvell Technology,Technology,Technology,"Wilmington, DE",,0001835632,1995-01-01
+MSFT,Microsoft,Technology,Technology,"Redmond, WA",,0000789019,1975-04-04
+MU,Micron Technology,Technology,Technology,"Boise, ID",,0000723125,1978-10-05
+NFLX,Netflix,Communication Services,Communication Services,"Los Gatos, CA",,0001065280,1997-08-29
+NVDA,Nvidia,Technology,Technology,"Santa Clara, CA",,0001045810,1993-04-05
+NXPI,NXP,Technology,Technology,"Eindhoven, ",,0001413447,2006-01-01
+ODFL,Old Dominion Freight Line,Industrials,Industrials,"Thomasville, NC",,0000878927,1934-01-01
+ON,Onsemi,Technology,Technology,"Phoenix, AZ",,0001097864,1999-01-01
+ORLY,O'Reilly Automotive,Consumer Cyclical,Consumer Cyclical,"Springfield, MO",,0000898173,1957-12-02
+PANW,Palo Alto Networks,Technology,Technology,"Santa Clara, CA",,0001327567,2005-01-01
+PAYX,Paychex,Industrials,Industrials,"Rochester, NY",,0000723531,1971-01-01
+PCAR,Paccar,Industrials,Industrials,"Bellevue, WA",,0000075362,1905-01-01
+PDD,PDD Holdings,Consumer Cyclical,Consumer Cyclical,"Shanghai, ",,0001737806,2015-01-01
+PEP,PepsiCo,Consumer Defensive,Consumer Defensive,"Purchase, NY",,0000077476,1898-08-28
+PYPL,PayPal,Financial Services,Financial Services,"San Jose, CA",,0001633917,1998-12-01
+QCOM,Qualcomm,Technology,Technology,"San Diego, CA",,0000804328,1985-07-01
+REGN,Regeneron,Healthcare,Healthcare,"Tarrytown, NY",,0000872589,1988-01-01
+ROP,Roper Technologies,Industrials,Industrials,"Sarasota, FL",,0000882835,1890-01-01
+ROST,Ross Stores,Consumer Cyclical,Consumer Cyclical,"Dublin, CA",,0000745732,2050-01-19
+SBUX,Starbucks,Consumer Cyclical,Consumer Cyclical,"Seattle, WA",,0000829224,1971-03-30
+SIRI,Sirius XM,Communication Services,Communication Services,"New York, NY",,0000908937,2008-07-29
+SNPS,Synopsys,Technology,Technology,"Mountain View, CA",,0000883241,1986-01-01
+SPLK,Splunk,Technology,Technology,"San Francisco, CA",,0001353283,2003-10-01
+TEAM,Atlassian,Technology,Technology,"Sydney, NSW",,0001650372,2002-01-01
+TMUS,T-Mobile US,Communication Services,Communication Services,"Bellevue, WA",,0001283699,2001-09-02
+TSLA,"Tesla, Inc.",Consumer Cyclical,Consumer Cyclical,"Austin, TX",,0001318605,2003-07-01
+TTD,The Trade Desk,Technology,Technology,"Ventura, CA",,0001671933,2009-01-01
+TTWO,Take-Two Interactive,Communication Services,Communication Services,"New York, NY",,0000946581,1993-09-30
+TXN,Texas Instruments,Technology,Technology,"Dallas, TX",,0000097476,1930-01-01
+VRSK,Verisk,Industrials,Industrials,"Jersey City, NJ",,0001442145,1971-01-01
+VRTX,Vertex Pharmaceuticals,Healthcare,Healthcare,"Boston, MA",,0000875320,1989-01-01
+WBA,Walgreens Boots Alliance,Healthcare,Healthcare,"Deerfield, IL",,0001618921,2014-12-31
+WBD,Warner Bros. Discovery,Communication Services,Communication Services,"New York, NY",,0001437107,2022-04-08
+WDAY,"Workday, Inc.",Technology,Technology,"Pleasanton, CA",,0001327811,2005-03-01
+XEL,Xcel Energy,Utilities,Utilities,"Minneapolis, MN",,0000072903,1909-06-17
+ZS,Zscaler,Technology,Technology,"San Jose, CA",,0001713683,2007-01-01
