@@ -7,6 +7,7 @@ import pandas as pd
 import warnings
 
 from Finance import finance_data
+from Data_scrap import SP500_scrap
 warnings.filterwarnings('ignore')
 
 fnc_data = finance_data() # Build finance data object
@@ -31,7 +32,7 @@ else:
 syn_name1 = st.sidebar.multiselect(" :rainbow-flag: Pick the Symbol (Only choose one)", syn_list2["symbol"].unique())
 
 st.sidebar.header(" :receipt: Choose your filter from American Constituents: ")
-index_list = ["NASDAQ", "Dow Jones"]
+index_list = ["NASDAQ", "Dow Jones", "S&P500 (no update)"]
 cnt_index = st.sidebar.multiselect(":golf: Pick your Index ", index_list)
 cnt_list = pd.DataFrame()
 if cnt_index == ['NASDAQ']:
@@ -40,6 +41,12 @@ if cnt_index == ['NASDAQ']:
 elif cnt_index == ['Dow Jones']:
     data_path = os.path.join(os.getcwd(), "Finance_data", "DowJonesList.csv")
     cnt_list = fnc_data.get_data(data_path, fnc_data.DowJones)
+elif cnt_index == ['S&P500 (no update)']: 
+    # The S&P500 is not free from the finance API web, so scrap from the wikipedia
+    data_path = os.path.join(os.getcwd(), "Finance_data", "SP500List.csv")
+    if not os.path.exists(data_path):
+        SP500_scrap(data_path)
+    cnt_list = pd.read_csv(data_path)
 
 # Filter for sector
 if cnt_list.empty:

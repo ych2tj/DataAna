@@ -15,9 +15,15 @@ class finance_data:
     SP500 = "v3/sp500_constituent"
     NASDAQ = "v3/nasdaq_constituent"
     DowJones = "v3/dowjones_constituent"
-
+    
     def __init__(self):
-        self.daily_chart_eod = "v3/historical-price-full/SPARC.NS"
+        #self.daily_chart_eod = "v3/historical-price-full/SPARC.NS" # for debug
+        # get my finace API key
+        key_path = os.path.join(os.getcwd(), "key.json")
+        with open(key_path, 'r') as json_file:
+            data = json.load(json_file)
+            self.apikey = data['apikey']
+            print("Token retrieved from json file: ", self.apikey)
  
     def get_data(self, file_path, data_section, data_info=[]):
         '''
