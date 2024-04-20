@@ -7,6 +7,7 @@ from datetime import datetime
 import json
 
 class finance_data:
+    customer_url = "http://127.0.0.1:8000/api/shareprices/"
     finance_url = "https://financialmodelingprep.com/api/"
     apikey = "your api key"
     # finance data links
@@ -25,6 +26,7 @@ class finance_data:
             self.apikey = data['apikey']
             print("Token retrieved from json file: ", self.apikey)
  
+
     def get_data(self, file_path, data_section, data_info=[]):
         '''
         This program checks if the CSV file's creation date is today. If it is, it opens the CSV file. If not, it fetches 
@@ -51,14 +53,16 @@ class finance_data:
             else:
                 self.save_to_CSV(df, file_path)
         return df
-            
+
+
     # Function to check if the file was created today
     def _is_created_today(self, file_path):
         creation_time = os.path.getmtime(file_path)
         creation_date = datetime.fromtimestamp(creation_time).date()
         current_date = datetime.now().date()
         return creation_date == current_date
-    
+
+
     def _fetch_data(self, data_section, data_info=[]):
         print("Downloading data...")
         api_url = self.finance_url+data_section+self.apikey
@@ -80,10 +84,51 @@ class finance_data:
         df.tail()
         return df
 
+
     def save_to_CSV(self, df, file_path):
         print("Save the data...")
         df.to_csv(file_path, index=False)
         print("Data fetched from API and saved to", file_path)
+
+
+    def fetch_custom_data(self):
+        response = requests.get(self.customer_url)
+        data = response.json()
+        return data
+
+
+    def send_custom_data(self, date, open, high, low, close, volumn, symbol):
+        '''
+        Create the customer data
+        '''
+        # date serialized to json
+        date_str = date.strftime('%Y-%m-%d')
+        change = round(close-open, 3) # Calculate the change
+        changePercent = round(change/open*100, 5) # Calculate the change percentage
+        data = {
+            "date": date_str,
+            "open": open,
+            "high": high,
+            "low": low,
+            "close": close,
+            "volumn": volumn,
+            "change": change,
+            "changePercent": changePercent,
+            "symbol": symbol
+        }
+        response = requests.post(self.customer_url, json=data)
+        return response
+
+
+    def delete_custom_data(self, id):
+        '''
+        Delete one row data
+        '''
+        delete_url = self.customer_url+str(id)+'/'
+        print(delete_url)
+        response = requests.delete(delete_url)
+        return response
+
 
 if __name__ == "__main__":
     # Get current folder path

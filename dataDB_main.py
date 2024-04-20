@@ -118,4 +118,65 @@ else:
     st.plotly_chart(fig, use_container_width=True)
     '''
 
+# Build the custom data
+st.header("The customer share pirce")
+custom_data = fnc_data.fetch_custom_data()
+with st.expander("Customer data table"):
+    if custom_data:
+        custom_df = pd.DataFrame(custom_data).reset_index()
+        syn_list = custom_df['symbol'].unique()
+        if len(syn_list) == 1:
+            st.dataframe(custom_df)
+        else:
+            customer_syn_name = st.multiselect("Pick the Symbol (Only choose one)", syn_list)
+            custom_df = custom_df[custom_df['symbol'].isin(customer_syn_name)]
+            st.dataframe(custom_df)
 
+with st.expander("Customer data line chart"):    
+    if custom_data:
+        custom_df = pd.DataFrame(custom_data).reset_index()
+        syn_list2 = custom_df['symbol'].unique()
+        if len(syn_list2) == 1:
+            fig = px.scatter(custom_df, x='date') # Build statter plot
+            # Add scatter traces
+            fig.add_scatter(x=custom_df['date'], y=custom_df['low'], mode='lines+markers', name = 'Low')
+            fig.add_scatter(x=custom_df['date'], y=custom_df['high'], mode='lines+markers', name = 'High')
+            fig.add_scatter(x=custom_df['date'], y=custom_df['close'], mode='lines+markers', name = 'Close')
+            fig.update_layout(title='Customer share prices', xaxis_title='Date', yaxis_title='Prices', legend_title='Price Type')
+            st.plotly_chart(fig, use_container_width=True)
+        if len(syn_list2) >= 2:
+            customer_syn_name = st.multiselect(" :rainbow-flag: Pick the Symbol (Only choose one)", syn_list2)
+            custom_df = custom_df[custom_df['symbol'].isin(customer_syn_name)]
+            fig = px.scatter(custom_df, x='date') # Build statter plot
+            # Add scatter traces
+            fig.add_scatter(x=custom_df['date'], y=custom_df['low'], mode='lines+markers', name = 'Low')
+            fig.add_scatter(x=custom_df['date'], y=custom_df['high'], mode='lines+markers', name = 'High')
+            fig.add_scatter(x=custom_df['date'], y=custom_df['close'], mode='lines+markers', name = 'Close')
+            fig.update_layout(title='Customer share prices', xaxis_title='Date', yaxis_title='Prices', legend_title='Price Type')
+            st.plotly_chart(fig, use_container_width=True)
+
+
+with st.expander("Enter your share price"):
+    date = st.date_input("Choose the price date") # date need to be json serialized
+    open = st.number_input("Enter the open price")
+    high = st.number_input("Enter the high price")
+    low = st.number_input("Enter the low price")
+    close = st.number_input("Enter the close price")
+    volumn = st.number_input("Enter the volumn", step=1)
+    symbol = st.text_input("Enter the symbol")
+
+    if st.button("Submit"):
+        response = fnc_data.send_custom_data(date, open, high, low, close, volumn, symbol)
+        if response.status_code == 201:
+            st.success("New customer data created")
+        else:
+            st.error("Something went wrong")
+
+with st.expander("Delete one data"):
+    id = st.number_input("Enter the data row id", step=1)
+    if st.button("Delete submit"):
+        response = fnc_data.delete_custom_data(id)
+        if response.status_code == 204:
+            st.success("Successfully delete the row")
+        else:
+            st.error("Something went wrong")
